@@ -1,0 +1,36 @@
+@import url('https://fonts.googleapis.com/css2?family=Be+Vietnam+Pro:wght@100;200;300;400;500;600;700;800;900&family=Orbitron:wght@400;600&display=swap');
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+body{
+    height: 100vh;
+    background-color: rgb(64, 63, 63);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: 900;
+    font-size: 25px;
+    font-family: 'Be Vietnam Pro', sans-serif;
+    font-family: 'Orbitron', sans-serif;
+}
+section{
+    background-color: rgb(213, 213, 225);
+    width: 300px;
+    height: 40vh;
+    border-radius: 3px;
+    display: flex;
+    flex-direction: column;
+    align-items: stretch;
+    box-shadow: rgb(67, 96, 179) 0px 0px 10px 5px;
+    padding: 1%;
+}
+tr{
+    background-color: white;
+    text-align: center;
+}
+td{
+    height: 58px;
+    width: 59px;
+}
