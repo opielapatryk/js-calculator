@@ -1,4 +1,6 @@
 const tds = document.querySelectorAll('td')
-tds[1].addEventListener("click",()=>{
-    console.log('xd')
+tds.forEach((e)=>{
+    e.addEventListener("click",()=>{
+        tds[0].innerHTML += e.innerHTML;
+    })
 })
